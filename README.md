@@ -51,7 +51,6 @@ Run the notebook: Open Open-Source-LLM-Fine_Tuning.ipynb in Jupyter or Google Co
 🧪 Usage Example
 Once the model is trained and saved in the modelo_salvo directory, you can use it as follows:
 
-Python
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 model = AutoModelForSeq2SeqLM.from_pretrained('modelo_salvo')
